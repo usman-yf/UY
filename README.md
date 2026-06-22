@@ -4,7 +4,7 @@ A luxury editorial portfolio designed for a Senior Full Stack Developer & AI Aut
 
 ## Live Preview
 
-*(You can add your live GitHub Pages link here once you deploy)*
+[https://usman-yf.github.io/UY/](https://usman-yf.github.io/UY/)
 
 ## Screenshots
 
