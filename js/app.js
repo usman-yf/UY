@@ -524,6 +524,14 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }
 
+  // ── Dynamic Copyright Year ──
+  const initDynamicYear = () => {
+    const yearEl = document.getElementById('current-year');
+    if (yearEl) {
+      yearEl.textContent = new Date().getFullYear();
+    }
+  };
+
   // ── Initialize Everything ──
   initLoader();
   initNavigation();
@@ -538,4 +546,5 @@ document.addEventListener('DOMContentLoaded', () => {
   initStatCardEffects();
   initCustomCursor();
   initPageTransition();
+  initDynamicYear();
 });
